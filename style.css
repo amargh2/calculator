@@ -1,0 +1,17 @@
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+    gap: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-button {
+    align-self: center;
+}
+
+.display {
+    text-align: center;
+}
